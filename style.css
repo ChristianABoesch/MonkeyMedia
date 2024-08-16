@@ -38,8 +38,8 @@ h3 {
 dt {
     color: #002171;
 }
-span.pity {
-    color: #d21919;
+span.selected {
+    color: #671010;
 }
 .center {
     display: block;
