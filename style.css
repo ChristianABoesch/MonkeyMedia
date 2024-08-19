@@ -13,7 +13,7 @@ h1 {
 }
 body {
     color: #000000;
-    background-image: url(rocks.png);
+    background-image: url(images/backgroundimage.png);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav {
@@ -92,7 +92,7 @@ table td.tier {
     width: 850px;
     height: 100px;
 }
-table td.rocks {
+table td.backgroundimage {
     width: 850px;
     height: 50px;
     font-size: 15px;
