@@ -9,34 +9,24 @@
 <body>
 <div id="wrapper">
 <header>
-  <h1>Create a monkey</h1>
+  <h1>What you created</h1>
 </header>
 <main>
-    <form method="post" action="created.html">
-        Make monkey instrumental?<br>
-        <input type="radio" name="recommend" id="absolutely" value="A" required> Yes<br>
-        <input type="radio" name="recommend" id="maybe" value="M" required> No<br>
-        <br>
-        Customize lyrics of monkey?<br>
-        <input type="radio" name="learned" id="lot" value="L" required> Yes<br>
-        <input type="radio" name="learned" id="decentAmount" value="DA" required> No<br>
-        <br>
-        If you selected yes, add your lyrics here:<br>
-        <input type="lyrics" name="favorite" id="fav"><br>
-        <br>
-        What will be your style of monkey?<br>
-        <input type="style" name="favorite" id="fav"><br>
-        <br>
-        Please enter the monkey's name:<br>
-        <input type="name" name="favorite" id="fav"><br>
-        <br>
-        <input type="submit">
-    </form>
+    <h2>You now have a new monkey.</h2>
+    <p>Listen to an instrumental sample here:</p>
+    <audio controls>
+        <source src="audio/lorgothfeedstheducks.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <br>
+    <br>
+    <p>Visit your new monkey in the "My Monkeys" page!</p>
 </main>
 <nav>
   <a href="index.html">About</a> &nbsp;
+  <a href="monkeys.html">My Monkeys</a> &nbsp;
   <a><span class="selected">Create A Monkey</span></a> &nbsp;
-  <a href="share.html">Share A Monkey</a> &nbsp;
   <a href="more.html">More About Monkeys</a> &nbsp;
   <a href="why.html">Why Monkeys?</a>
 </nav>

@@ -125,16 +125,19 @@ form {
 input {
     margin-bottom: 0.5em;
 }
-input[type="lyrics"] {
+textarea[type="lyrics"] {
     width: 200px;
     height: 200px;
     font-family: inherit;
     font-size: inherit;
     margin:0;
 }
-input[type="style"] {
+textarea[type="style"] {
     width: 200px;
     height: 50px;
+    font-family: inherit;
+    font-size: inherit;
+    margin:0;
 }
 input[type="name"] {
     width: 200px;

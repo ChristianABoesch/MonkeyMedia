@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" href="style.css">
-<title>Create A Monkey | Monkey Media</title>
+<title>Toby | Monkey Media</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
 <meta charset="utf-8">
 <meta name="description" content="A work-in-progress company website, but don't tell anybody that the company is fake. This is a secret, and it CANNOT fall into the wrong hands">
@@ -10,16 +10,21 @@
 <body>
 <div id="wrapper">
 <header>
-  <h1>Create a monkey</h1>
+  <h1>Monkey: Toby</h1>
 </header>
 <main>
-    <form method="post" action="created.html">
-        What will be your style of monkey?<br>
-        <textarea type="style" name="favorite" id="fav"></textarea><br>
+    <form method="post" action="tobygenerated.html">
+        Make monkey instrumental?<br>
+        <input type="radio" name="recommend" id="absolutely" value="A" required>Yes<br>
+
+        <input type="radio" name="recommend" id="maybe" value="M" required>No<br>
         <br>
-        Please enter the monkey's name:<br>
-        <input type="name" name="favorite" id="fav"><br>
+        Customize lyrics of monkey?<br>
+        <input type="radio" name="learned" id="lot" value="L" required> Yes<br>
+        <input type="radio" name="learned" id="decentAmount" value="DA" required> No<br>
         <br>
+        If you selected yes, add your lyrics here:<br>
+        <textarea type="lyrics" name="favorite" id="fav"></textarea><br>
         <input type="submit">
     </form>
 </main>
